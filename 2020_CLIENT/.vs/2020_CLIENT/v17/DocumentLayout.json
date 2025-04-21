@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Github\\new-iocp-server-mini-rpg\\2020_CLIENT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6373B90E-B2E8-4259-B640-B8AF0175CF2D}|2020_CLIENT\\2020_CLIENT.vcxproj|C:\\Github\\new-iocp-server-mini-rpg\\2020_CLIENT\\2020_CLIENT\\client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6373B90E-B2E8-4259-B640-B8AF0175CF2D}|2020_CLIENT\\2020_CLIENT.vcxproj|solutionrelative:2020_CLIENT\\client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "client.cpp",
+              "DocumentMoniker": "C:\\Github\\new-iocp-server-mini-rpg\\2020_CLIENT\\2020_CLIENT\\client.cpp",
+              "RelativeDocumentMoniker": "2020_CLIENT\\client.cpp",
+              "ToolTip": "C:\\Github\\new-iocp-server-mini-rpg\\2020_CLIENT\\2020_CLIENT\\client.cpp",
+              "RelativeToolTip": "2020_CLIENT\\client.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-15T06:27:37.977Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
