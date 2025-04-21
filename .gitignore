@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/2020_StressW/.vs/2020_StressW/v17/ipch
+/2020_IOCP_SERVER/.vs/2020_IOCP_SERVER/v17/ipch
+/2020_CLIENT/.vs/2020_CLIENT/v17/ipch
