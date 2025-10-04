@@ -30,3 +30,12 @@ binary 폴더 - 실행 결과물들 모아놓은 폴더
 $(SolutionDir)<요기에 폴더명\>$(Configuration)\
 
 Libraries 폴더 - 라이브러리들만 모아놓은 폴더
+
+thread_local = TLS 지원하기 위한 TLS변수, 정적-전역 변수는 모든 thread에 공유되니까 각각의 thread에게 변수를 독립적으로 만들어 주고 싶을 때 사용
+
+ __analysis_assume = 인자가 항상 참이라고 컴파일러에게 알려주어 경고를 줄일 수 있음
+
+function<void(void)> callback = 인자를 받지 않고 반환값이 없는 함수, 일반 함수, 함수 객체, 람다 함수 다 받을 수 있음, 함수 포인터는 함수만 받을 수 있어서 별로-옛날문법
+<void(void)>가 void abc(void a) 함수 형태의미임
+
+클래스 내부의 static void 함수 = 객체를 만들지 않고 호출하고 싶을 때, 클래스 전체에서 공유할 로직일 때, 유틸리티성 함수나 전역 관리용 함수를 만들 때 
