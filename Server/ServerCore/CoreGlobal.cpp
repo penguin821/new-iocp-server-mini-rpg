@@ -4,12 +4,16 @@
 
 ThreadManager* g_ThreadManager = nullptr;
 
-CoreGlobal::CoreGlobal()
+class CoreGlobal // 概聪历 积己 鉴辑 包府
 {
-	g_ThreadManager = new ThreadManager();
-}
+public:
+	CoreGlobal()
+	{
+		g_ThreadManager = new ThreadManager();
+	}
 
-CoreGlobal::~CoreGlobal()
-{
-	delete g_ThreadManager;
-}
+	~CoreGlobal()
+	{
+		delete g_ThreadManager;
+	}
+} g_CoreGlobal;

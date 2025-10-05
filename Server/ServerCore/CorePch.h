@@ -1,9 +1,9 @@
 #pragma once
 
 #include "Types.h"
-#include "CoreGlobal.h"
-#include "CoreTLS.h"
 #include "CoreMacro.h"
+#include "CoreTLS.h"
+#include "CoreGlobal.h"
 
 #include <vector>
 #include <list>
@@ -13,7 +13,10 @@
 #include <set>
 #include <unordered_map>
 #include <unordered_set>
-#include <chrono>
+//#include <chrono>
 
+#include <windows.h>
 #include <iostream>
 using namespace std;
+
+#include "Lock.h"
