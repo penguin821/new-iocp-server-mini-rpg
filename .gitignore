@@ -30,9 +30,7 @@ Release/
 *.sdf
 *.VC.db
 *.VC.VC.opendb
-*.vcxproj.user
-*.filters
-*.sln.docstates
+*.vcxproj.user // 이거
 *.code-workspace
 .idea/
 cmake-build-*/

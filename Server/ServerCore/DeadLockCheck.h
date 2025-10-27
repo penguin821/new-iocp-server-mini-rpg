@@ -5,7 +5,7 @@
 
 // Write 락 언락 시작할때 넣어서 디버그 모드면 이 클래스에 정보를 전달해
 // 이 클래스가 그래프 알고리즘을 그려준 다음 락 싸이클이 일어나는지 판단
-class DeadLockProfiler
+class DeadLockCheck
 {
 public:
 	void PushLock(const char* name);

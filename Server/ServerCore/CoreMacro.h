@@ -4,9 +4,9 @@
 
 #define USE_MANY_LOCKS(count)	Lock locks[count];
 #define USE_LOCK				USE_MANY_LOCKS(1)
-#define READ_LOCK_IDX(idx)		ReadLockGuard readLockGuard_##idx(locks[idx]);
+#define READ_LOCK_IDX(idx)		ReadLockGuard readLockGuard_##idx(locks[idx], typeid(this).name());
 #define READ_LOCK				READ_LOCK_IDX(0)
-#define WRITE_LOCK_IDX(idx)		WriteLockGuard writeLockGuard_##idx(locks[idx]);
+#define WRITE_LOCK_IDX(idx)		WriteLockGuard writeLockGuard_##idx(locks[idx], typeid(this).name());
 #define WRITE_LOCK				WRITE_LOCK_IDX(0)
 
 // 코드에 의도적으로 엉뚱한 명령어를 통해 크래시 발생시키면
